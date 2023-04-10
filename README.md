@@ -35,7 +35,7 @@ We have selected 11 features for our model, and following are the results.
 <table>
 <tr><td style="vertical-align: baseline;">
 
-| Features  | p-value | VIF   |
+| Feature   | p-value | VIF   |
 | --------- | ------- | ----- |
 | Jul       | 0.005   | 1.584 |
 | spring    | 0.002   | 2.079 |
@@ -61,7 +61,7 @@ We have selected 11 features for our model, and following are the results.
 </tr>
 </table>
 
-<img src="images/test_actual_vs_predicted.png" alt="Test - Actual vs Predicted" width="40%">
+<img src="images/test_actual_vs_predicted.png" alt="Test - Actual vs Predicted" width="50%">
 
 ---
 
@@ -86,4 +86,4 @@ Python 3.9.16
 
 ---
 
-> Assignment done by: [Rahul Nanwani](https://github.com/rahul-nanwani)
+Assignment done by: [Rahul Nanwani](https://github.com/rahul-nanwani)
