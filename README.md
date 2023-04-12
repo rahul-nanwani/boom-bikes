@@ -30,32 +30,31 @@ The target variable for the model is the _cnt_ variable, and it will also be use
 
 ## Conclusions
 
-We have selected 11 features for our model, and following are the results.
+We have selected 10 features for our model, and following are the results.
 
 <table>
 <tr><td style="vertical-align: baseline;">
 
-| Feature   | p-value | VIF   |
-| --------- | ------- | ----- |
-| Jul       | 0.005   | 1.584 |
-| spring    | 0.002   | 2.079 |
-| summer    | 0.002   | 2.227 |
-| 2019      | 0.000   | 2.067 |
-| holiday   | 0.000   | 1.043 |
-| temp      | 0.000   | 5.092 |
-| windspeed | 0.000   | 4.601 |
-| winter    | 0.000   | 1.780 |
-| Sep       | 0.000   | 1.337 |
-| LRS       | 0.000   | 1.081 |
-| MST       | 0.000   | 1.552 |
+| Features | p_value | t_value | VIF |
+| --- | --- | --- | --- |
+| spring | 0.008 | -2.654 | 1.994 |
+| windspeed | 0.000 | -5.854 | 4.595 |
+| temp | 0.000 | 14.423 | 3.838 |
+| 2019 | 0.000 | 28.237 | 2.066 |
+| summer | 0.000 | 4.350 | 1.903 |
+| winter | 0.000 | 5.630 | 1.629 |
+| MST | 0.000 | -8.938 | 1.549 |
+| Sep | 0.000 | 5.566 | 1.229 |
+| LRS | 0.000 | -11.444 | 1.081 |
+| holiday | 0.000 | -3.668 | 1.043 |
 
 </td><td style="vertical-align: baseline;">
 
 |                | Train Set | Test Set |
 | -------------- | --------- | -------- |
-| R-Squared      | 0.835     | 0.805    |
-| Adj. R-Squared | 0.832     | N.A.     |
-| F-statistic    | 229.6     | N.A.     |
+| R-Squared      | 0.832     | 0.804    |
+| Adj. R-Squared | 0.829     | N.A.     |
+| F-statistic    | 248.4     | N.A.     |
 
 </td>
 </tr>
